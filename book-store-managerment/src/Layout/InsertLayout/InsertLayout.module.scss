@@ -1,0 +1,74 @@
+.container{
+    color: black;
+}
+tfoot tr td{
+    border: none;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.table-container{
+    position: relative;
+}
+.table-outer {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    display: table-cell;
+}
+.title p{
+    float: left;
+    width: 100px;
+    padding: 0;
+}
+.title label{
+    float: left;
+    width: 25%;
+    height: 25px;
+    padding: 17px 50px 0 0;
+    text-align: left;
+}
+
+.five-cols th, .five-cols td {
+    width: 20%;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+input{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+label{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.insert-row{
+    width: 100%;
+    align-content: center;
+}
+.table-outer th:first-child {
+    width: 30px;
+}

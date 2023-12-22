@@ -1,0 +1,1051 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:07] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:07] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:08] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:08] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:09] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:09] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:11] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:11] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:13] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:13] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:13] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:13] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:13] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:14] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:15] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:15] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:16] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:17] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:17] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:18] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:19] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:19] "POST /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:21] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:29] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:root:Received data: {'data': [{'index': 1, 'name': '', 'category': '', 'author': '', 'quantity': ''}, {'index': 2, 'name': '', 'category': '', 'author': '', 'quantity': ''}]}
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:08:29] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:37] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:37] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:39] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:39] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:40] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:40] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:40] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:42] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:42] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:48] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:48] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:48] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:11:49] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:12:18] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:12:19] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:12:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:12:23] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:12:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:12:23] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:12:25] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:12:25] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:13:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:13:00] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:13:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:13:01] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:13:01] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:13:01] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:13] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:13] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:15] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:15] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:15] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:31] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:31] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:32] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:37] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:37] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:37] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:39] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:41] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:42] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:43] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:43] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:44] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:45] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:45] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:46] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:47] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:48] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:51] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:51] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:58] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:58] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:58] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:58] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:15:58] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:16:07] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:16:07] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:16:11] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:16:16] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:16:17] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:16:17] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:17:34] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:17:34] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:01] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:01] "GET /books HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:07] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:08] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:09] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:16] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:16] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:16] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:19] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:19] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:19] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:21] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:22] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:22] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:23] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:24] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:25] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:26] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:26] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:28] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:22:28] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:40:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:40:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:40:59] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:41:00] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:42:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:42:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:42:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:43:09] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:43:09] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:46:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:48:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:50:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:50:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:50:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:50:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:50:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:50:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:51:30] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:51:30] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:51:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:51:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:55:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:55:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:56:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:57:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:57:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:58:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:58:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:58:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:58:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:58:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:58:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:58:24] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:58:25] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:58:31] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 22:58:32] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:01:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:01:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:01:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:01:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:06:06] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:06:07] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:07:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:07:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:07:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:07:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:07:21] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:07:21] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:09:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:09:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:09:12] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:09:13] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:13:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:13:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:13:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:13:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:25:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:25:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:25:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:25:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:25:20] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:25:20] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:25:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:25:45] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:25:45] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:26:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:26:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:26:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:26:10] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:26:10] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:33:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:33:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:33:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:33:21] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:33:22] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:33:39] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:33:39] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:35:20] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:35:20] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:37:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:37:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:37:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:37:39] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:40:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:40:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:41:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:42:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:42:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:42:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:42:59] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:44:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:44:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:44:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:44:37] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:45:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:45:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:45:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:45:48] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:52:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:52:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:52:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:52:27] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:53:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:53:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:54:02] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:56:23] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:57:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:57:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:57:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:57:15] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:57:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:58:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:58:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:58:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:58:40] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:58:41] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:58:47] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 23:58:47] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:04:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:04:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:04:50] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:04:51] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:05:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:05:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:05:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:05:37] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:05:38] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:05:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:05:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:05:47] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:05:47] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:05:55] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 00:05:56] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:18:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:18:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:18:56] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:18:56] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:29:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:29:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:30:10] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:30:10] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:39:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:39:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:39:26] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:39:26] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:41:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:41:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:41:18] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:41:19] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:45:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:45:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:45:51] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:45:52] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:46:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:46:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:46:31] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:46:31] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:46:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:46:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:47:04] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:47:04] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:48:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:48:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:48:45] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:48:45] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:50:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:50:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:51:06] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:51:06] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:51:06] "OPTIONS / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:51:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:54:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:54:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:54:46] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:54:47] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:55:01] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:55:02] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:57:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:57:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:57:24] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 22:57:24] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:19:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:19:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:19:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:19:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:19:53] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:19:54] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:24:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:24:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:25:16] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:25:16] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:25:42] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:25:43] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:26:06] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:26:06] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:26:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:26:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:27:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:27:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:28:35] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:28:37] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:28:37] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:28:44] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:28:44] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:28:51] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:28:51] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:29:44] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:29:44] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:29:54] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:29:55] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:31:05] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:31:06] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:31:06] "OPTIONS / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:31:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:31:09] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:31:10] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:31:17] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:31:18] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:31:18] "OPTIONS / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:31:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:40:22] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:40:22] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:40:58] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:40:58] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:40:58] "OPTIONS / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:40:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:41:08] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:41:08] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:41:08] "OPTIONS / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:41:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:43:33] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:43:42] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:43:42] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:43:45] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:43:45] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:43:56] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:43:57] "[32mPOST /submit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:43:57] "OPTIONS / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:43:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:43:58] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:43:58] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:46:30] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:46:37] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:46:37] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:46:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 23:46:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 21:52:49] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 21:52:49] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 21:53:03] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 21:53:04] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 21:53:05] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 21:53:05] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:07:55] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:12:22] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:12:50] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:12:51] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:17:23] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:19:16] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:19:20] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:19:20] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:20:41] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:20:43] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:20:43] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:29:17] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:29:49] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:29:53] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:29:53] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:40:50] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:40:50] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:41:43] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:41:45] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:41:46] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:42:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:43:09] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:43:11] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:43:12] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:44:21] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:44:27] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:44:27] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:45:08] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 22:45:09] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:05:56] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:05:56] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:06:45] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:06:47] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:06:47] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:07:13] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:07:13] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:07:32] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:07:34] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:07:35] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:10:19] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:10:22] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:10:22] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:11:31] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:11:31] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:12:11] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:12:13] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:12:13] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:12:27] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:12:48] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:12:48] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:13:48] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:13:49] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:13:58] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:13:58] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:14:12] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:14:12] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:14:27] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:14:28] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:14:29] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:14:42] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:14:44] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:14:44] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:14:59] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:15:01] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:15:01] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:15:14] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:15:16] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:15:16] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:15:30] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:15:31] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:16:16] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:16:17] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:17:33] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:17:33] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:18:23] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:18:24] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:18:54] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:18:54] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:20:30] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:20:30] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:21:49] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:21:49] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:22:43] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:22:44] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:22:58] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:22:59] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:23:22] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:23:22] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:25:54] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:25:54] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:26:18] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:26:18] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:28:04] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:28:20] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:28:22] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:28:22] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:29:16] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:29:16] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:29:48] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:30:03] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:30:07] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:30:07] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:31:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:32:03] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:32:04] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:33:29] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:33:29] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:33:45] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:35:37] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:35:37] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:37:37] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:37:39] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:37:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:37:54] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:38:04] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:38:04] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:38:06] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:38:06] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2023 23:38:43] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:18:23] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:18:23] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:19:09] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:21:27] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:21:31] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:21:31] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:21:46] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:23:39] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:23:51] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:24:26] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:24:26] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:25:22] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:25:22] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:26:16] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:26:16] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:27:24] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:27:27] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:27:27] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:27:32] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:27:34] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:27:34] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:27:54] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:27:54] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:31:11] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:31:51] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:31:52] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:31:52] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:32:13] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:32:13] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:32:17] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:32:18] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:32:37] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:32:37] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:33:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:33:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:34:02] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:34:03] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:35:35] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:35:35] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:36:29] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:36:30] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:37:13] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:37:13] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:37:29] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 13:37:29] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 18:58:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 18:58:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 18:58:41] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 18:58:41] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 18:58:47] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 18:58:47] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 19:10:19] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 19:10:20] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 19:10:27] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 19:10:27] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 19:20:58] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2023 21:56:59] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2023 21:56:59] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2023 22:12:18] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2023 22:12:18] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2023 22:12:20] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2023 22:12:21] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2023 22:58:47] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2023 22:58:47] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2023 22:58:50] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2023 22:58:50] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:23:28] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:23:28] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:23:28] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:23:28] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:28] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:28] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:28] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:28] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:30] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:30] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:30] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:30] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:34] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:34] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:53] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:26:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:38:51] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:38:51] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:20] "[33mGET /get-books HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:20] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:20] "[33mGET /get-books HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:20] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:26] "[33mGET /get-books HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:26] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:26] "[33mGET /get-books HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:27] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:40] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:45] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:45] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:45] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:58:46] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:59:30] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:59:30] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:59:30] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 09:59:30] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:02:05] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:02:05] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:02:05] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:02:05] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:02:41] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:02:41] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:02:41] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:02:42] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:05:19] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:05:19] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:05:20] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:05:20] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:07] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:07] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:08] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:08] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:19] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:19] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:19] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:20] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:24] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:24] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:25] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:25] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:50] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:51] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:58] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:58] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:58] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:09:58] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:15:04] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:15:04] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:15:15] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:15:15] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:16:39] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:16:39] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:17:01] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:17:02] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:17:08] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:17:08] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:19:01] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:19:01] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:19:03] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:19:04] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:26:06] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:26:06] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:27:02] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:27:06] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:27:06] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:32:38] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:32:39] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:32:40] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:32:40] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:33:01] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:33:01] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:33:38] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:34:08] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:34:10] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:34:10] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:34:44] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:34:45] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:34:46] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:39:08] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:39:09] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:40:57] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:40:57] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:42:04] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:42:05] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 10:42:05] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:12:03] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:12:03] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:17:38] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:17:38] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:17:38] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:17:39] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:17:44] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:17:44] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:17:44] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:17:44] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:18:00] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:18:00] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:18:31] "[33mGET /invoice/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:18:31] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:18:43] "[33mGET /invoice/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:18:44] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:19:05] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:19:05] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:22:58] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:22:58] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:23:06] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:23:06] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:23:06] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:23:07] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:39:51] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:39:51] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:39:52] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:39:52] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:42:35] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:42:35] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:43:10] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:43:10] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:43:13] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:43:13] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:43:13] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:43:13] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:47:40] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:47:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:47:40] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:47:40] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:48:16] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:48:16] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:53:48] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:53:48] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:53:48] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:53:48] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:53:50] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:53:50] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:53:50] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:53:50] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:54:35] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:54:35] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:54:35] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:54:35] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:56:12] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:56:12] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:56:12] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:56:12] "[35m[1mGET /invoice HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\book-store\\book-store-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 162-382-851
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:59:11] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:59:11] "GET /invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:59:11] "GET /insert-book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 14:59:11] "GET /invoice HTTP/1.1" 200 -
