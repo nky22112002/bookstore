@@ -49,8 +49,8 @@ def get_category():
         return jsonify({'error': 'Internal Server Error'}), 500
 
 
-@app.route('/submit', methods=['POST'])
-def submit_data():
+@app.route('/submit-books', methods=['POST'])
+def submit_data_books():
         try:
             data_from_frontend = request.json.get('data')
             
@@ -75,8 +75,48 @@ def submit_data():
             # Rollback nếu có lỗi xảy ra
             connection.rollback()
             return jsonify({'error': 'Error processing data'}), 500
-        
 
+def get_id_bill():
+    query = 'SELECT MAX(CAST(id AS SIGNED)) AS latest_id FROM bill;'
+    cursor.execute(query)
+    result = cursor.fetchone()
+    if result:
+        id_bill = result[0]
+        return id_bill
+    else:
+        return None
+
+@app.route('/submit-invoice', methods=['POST'])
+def submit_data_invoice():
+    try:
+        data = request.json.get('data')
+        employee = request.json.get('employeeName')
+        customer = request.json.get('customerName')
+        query_insert_bill = 'INSERT INTO `bill`(`emp_name`, `customer_name`) VALUES (%s, %s)'
+        values = (employee, customer)
+        cursor.execute(query_insert_bill, values)
+        connection.commit()
+        id_bill = get_id_bill()
+        print(id_bill)
+        for row in data:
+            id_book = row.get('name')
+            quantity = row.get('quantity')
+            price = row.get('price')
+
+            query_insert_bill_info = "INSERT INTO bill_info(id_book, id_bill, quantity, price) VALUES (%s, %s, %s, %s)"
+            values = (id_book, id_bill, quantity, price)
+            cursor.execute(query_insert_bill_info, values)
+            
+            # Lưu thay đổi vào cơ sở dữ liệu
+        connection.commit()
+            # Trả về phản hồi nếu cần
+        return jsonify("Data inserted!!!")
+    except Exception as e:
+        print('Error processing data:', str(e))
+            # Rollback nếu có lỗi xảy ra
+        connection.rollback()
+        return jsonify({'error': 'Error processing data'}), 500
+        
 
 if __name__ == '__main__':
     app.run(debug=True)

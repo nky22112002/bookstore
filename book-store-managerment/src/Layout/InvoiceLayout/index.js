@@ -9,12 +9,16 @@ function InvoiceLayout(){
     const [rows, setRows] = useState([]);
     const [index, setIndex] = useState(1);
     const [books, setBooks] = useState([]);
-    const [selectedItem, setSelectedItem] = useState({ id: '', name: '' });
+    const [selectedItem, setSelectedItem] = useState(books[0]); // or any default book object
+    const [employeeName, setEmployeeName] = useState('');
+    const [customerName, setCustomerName] = useState('');
+
     useEffect(() => {
         const apiUrl = 'http://localhost:5000/invoice';  // Update with your Flask API endpoint
         axios.get(apiUrl)
           .then(response => {
             setBooks(response.data.books);
+            console.log(books);
           })
           .catch(error => {
             console.error('Error fetching data:', error);
@@ -49,11 +53,24 @@ function InvoiceLayout(){
           )
         );
         setSelectedItem(prevSelectedBooks => ({ ...prevSelectedBooks, [rowIndex]: value }));
+
       };
+      const handleInputEmployee = event => {
+        setEmployeeName(event.target.value);
+
+      }
+      const handleInputCustomer = event => {
+        setCustomerName(event.target.value);
+
+      }
     
       const handleSubmit = async () => {
         try {
-            const response = await axios.post('http://localhost:5000/submit', { data: rows });
+            const response = await axios.post('http://localhost:5000/submit-invoice', { 
+                data: rows,
+                employeeName: employeeName,
+                customerName: customerName 
+             });
 
             window.alert('Data inserted successfully!');
 
@@ -63,8 +80,18 @@ function InvoiceLayout(){
             console.error('Error submitting data:', error);
         }
     };
-    const handleSelectChange = (event) => {
-        const selectedBook = books.find(book => book.id === event.target.value);
+    const handleSelectChange = (event, rowIndex) => {
+        const selectedBook = books.find(book => book.id === parseInt(event.target.value, 10));
+        setRows(prevRows => {
+            const updatedRows = [...prevRows];
+            updatedRows[rowIndex] = {
+              ...updatedRows[rowIndex],
+              selectedBook: selectedBook,
+              name: selectedBook ? selectedBook.id : '', // Add this line to update the name
+
+            };
+            return updatedRows;
+          });
         setSelectedItem(selectedBook);
       };
     return(
@@ -78,7 +105,12 @@ function InvoiceLayout(){
                         </tr>
                         <tr className={cx('second-row')}>
                             <td className={cx('invoice-inf')} colSpan="3">
-                                <p>Họ tên khách hàng:<input></input></p>
+                                <p>Họ tên khách hàng:
+                                    <input type='text'
+                                    value={customerName}
+                                    onChange={handleInputCustomer}
+                                    /> 
+                                </p>
                             </td>
                             <td className={cx('invoice-inf')} colSpan="2">
                                 <p>Ngày lập hóa đơn:<label>{date}</label></p>
@@ -94,18 +126,18 @@ function InvoiceLayout(){
                         </tr>
                     </thead>
                     <tbody>
-                        {rows && rows.map(row => (
+                        {rows && rows.map((row, index) => (
                             <tr key={row.index}>
                                 <td>{row.index}</td>
                                 <td>
                                     <label>
                                         <select
-                                            id="dropdown"
-                                            value={selectedItem.id}
-                                            onChange={handleSelectChange}>
+                                            id={`dropdown-${index}`}
+                                            value={row.selectedBook ? row.selectedBook.id : ''}
+                                            onChange={(e) => handleSelectChange(e, index)}>
                                             <option value="" disabled>Select a book</option>
                                             {books.map(book => (
-                                                <option key={book.id} value={book.id}>{book.name}</option>
+                                              <option key={book.id} value={book.id}>{book.name}</option>
                                             ))}
                                         </select>
                                     </label>
@@ -122,7 +154,7 @@ function InvoiceLayout(){
                                     <label>
                                         <input type="text" 
                                         name={`quantity-${row.index}`} 
-                                        value={row.author} 
+                                        value={row.quantity} 
                                         onChange={(e) => handleInputChange(row.index, 'quantity', e.target.value)}/>
                                     </label>
                                 </td>
@@ -130,7 +162,7 @@ function InvoiceLayout(){
                                     <label>
                                         <input type="text" 
                                         name={`price-${row.index}`} 
-                                        value={row.quantity} 
+                                        value={row.price} 
                                         onChange={(e) => handleInputChange(row.index, 'price', e.target.value)} 
                                         />
                                     </label>
@@ -142,7 +174,13 @@ function InvoiceLayout(){
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colSpan='5'>Nhân viên thanh toán: <input className={cx('input-emp')}></input>  </td>
+                            <td colSpan='5'>Nhân viên thanh toán: 
+                                <input className={cx('input-emp')} 
+                                type='text'
+                                value={employeeName}
+                                onChange={handleInputEmployee}
+                                /> 
+                            </td>
                         </tr>
                         <tr>
                             <td colSpan='2'><button type="button" onClick={handleInsertRow}>Insert row</button></td>

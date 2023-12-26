@@ -41,7 +41,7 @@ function InsertLayout() {
     
       const handleSubmit = async () => {
         try {
-            const response = await axios.post('http://localhost:5000/submit', { data: rows });
+            const response = await axios.post('http://localhost:5000/submit-books', { data: rows });
 
         // Handle the response from the server if needed
             window.alert('Data inserted successfully!');
