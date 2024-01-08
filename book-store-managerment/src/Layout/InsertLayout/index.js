@@ -8,6 +8,20 @@ function InsertLayout() {
     const [date, setDate] = useState('');
     const [rows, setRows] = useState([]);
     const [index, setIndex] = useState(1);
+    const [category, setCategory] = useState([]);
+
+    const [selectedItem, setSelectedItem] = useState(category[0]);
+
+    useEffect(() => {
+        const apiUrl = 'http://localhost:5000/invoice';  // Update with your Flask API endpoint
+        axios.get(apiUrl)
+          .then(response => {
+            setCategory(response.data.category);
+          })
+          .catch(error => {
+            console.error('Error fetching data:', error);
+          });
+      }, []);
 
     useEffect(() => {
         axios.get('http://localhost:5000/insert-book')
@@ -66,7 +80,21 @@ function InsertLayout() {
             alert(`Error: Quantity must be between 150 and 300 for row with index ${rowIndex}. Skipping this row.`);
           }
       };
+      const handleSelectChangeCategory = (event, rowIndex) => {
+        const selectedCategory = category.find(categorries => categorries.id === parseInt(event.target.value, 10));
+        console.log(selectedCategory);
+        setRows(prevRows => {
+            const updatedRows = [...prevRows];
+            updatedRows[rowIndex] = {
+              ...updatedRows[rowIndex],
+              selectedCategory: selectedCategory,
+              category: selectedCategory ? selectedCategory.id : '', // Add this line to update the name
 
+            };
+            return updatedRows;
+          });
+        setSelectedItem(selectedCategory);
+      };
     return(
         <div className={cx('container')}>
             <a href='/'>Home</a>
@@ -92,7 +120,7 @@ function InsertLayout() {
                         </tr>
                     </thead>
                     <tbody>
-                        {rows.map(row => (
+                        {rows.map((row, index) => (
                             <tr key={row.index}>
                                 <td>{row.index}</td>
                                 <td>
@@ -105,10 +133,15 @@ function InsertLayout() {
                                 </td>
                                 <td>
                                     <label>
-                                        <input type="text" 
-                                        name={`category-${row.index}`} 
-                                        value={row.category} 
-                                        onChange={(e) => handleInputChange(row.index, 'category', e.target.value)}/>
+                                    <select
+                                            id={`dropdown-${index}`}
+                                            value={row.selectedCategory ? row.selectedCategory.id : ''}
+                                            onChange={(e) => handleSelectChangeCategory(e, index)}>
+                                            <option value="" disabled>Select a book</option>
+                                            {category.map(categorries => (
+                                              <option key={categorries.id} value={categorries.id}>{categorries.name}</option>
+                                            ))}
+                                        </select>
                                     </label>
                                 </td>
                                 <td>

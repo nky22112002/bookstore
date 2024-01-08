@@ -18,7 +18,6 @@ function InvoiceLayout(){
         axios.get(apiUrl)
           .then(response => {
             setBooks(response.data.books);
-            console.log(books);
           })
           .catch(error => {
             console.error('Error fetching data:', error);
