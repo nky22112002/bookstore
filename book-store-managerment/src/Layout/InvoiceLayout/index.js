@@ -73,7 +73,6 @@ function InvoiceLayout(){
 
             window.alert('Data inserted successfully!');
 
-            window.location.reload();
 
         } catch (error) {
             console.error('Error submitting data:', error);

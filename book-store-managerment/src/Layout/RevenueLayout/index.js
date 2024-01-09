@@ -37,7 +37,6 @@ function RevenueLayout(){
                     'Content-Type': 'application/json',
                 },
             });
-            window.alert('Data inserted successfully!');
 
             // Xử lý kết quả từ Flask, có thể làm gì đó với response.data
             setLabel(response.data.labels);
@@ -81,6 +80,8 @@ function RevenueLayout(){
 
     return(
         <div>
+            <a href='/'>Home</a>
+            <br/>
             <select onChange={handleSelectChange}>
                 <option value=''>Loại sách</option>
                 {category.map(categories => (
